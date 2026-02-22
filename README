@@ -1,0 +1,42 @@
+# Student Performance Analysis
+
+A student performance analysis system built from scratch using only NumPy.
+
+## What it does
+- Calculates average marks per student
+- Calculates average marks per subject
+- Identifies top and lowest scorer
+- Classifies students as Pass or Fail
+- Assigns grades based on performance
+
+## Pass/Fail Rule
+A student fails if they score below 40 in ANY subject
+regardless of their overall average.
+
+## Grade Scale
+- A = 80 to 100
+- B = 60 to 79
+- C = 40 to 59
+- D = 20 to 39
+- F = 0 to 19
+
+## How to run
+
+1. Clone the repository
+2. Install dependencies
+   pip install -r requirements.txt
+3. Run the project
+   python main.py
+
+## Project Structure
+- data/ — generates student marks data
+- analysis/ — statistics and grade logic
+- main.py — connects everything together
+
+## Built With
+- Python
+- NumPy
+
+
+
+
