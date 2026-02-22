@@ -36,7 +36,3 @@ regardless of their overall average.
 ## Built With
 - Python
 - NumPy
-
-
-
-
